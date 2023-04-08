@@ -1,0 +1,65 @@
+
+*{
+    background-image: url("homework/a1.png");
+    background: #b97d7d3b;
+    color : rgb(255, 255, 255);
+    font-family: "MS";
+    text-shadow: -1px -1px rgb(0, 0, 0);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.helloworld {
+   background: #633434bb;
+   height: 100%;
+   width: 100%;
+   cursor: pointer;
+   text-align: center;
+   height: wrap;
+   width: wrap; 
+   border: 10px solid #1a0808aa;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.supermelon {
+    border-width: wrap;
+    cursor: pointer;
+    image-rendering: pixelated;
+    border: 10px solid #1a0808aa;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    animation-name: example;
+    animation-duration: 200s;
+}
+
+@keyframes example {
+    
+    from {background-color: #4070f4;}
+    to {background-color: rgb(0, 16, 31);}
+}
+
+.spinner {
+    height: 200px;
+    width: 200px;
+    border: 12px solid #e3e3e3;
+    border-radius: 50%;
+    border-right-color: #4070f4;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    100%{
+       transform: rotate(360deg)
+    }
+}
+
+.helloworld:hover {background-color: #633434bb; transform: translateY(-4px); animation: example}
+.supermelon:hover {background-color: #633434bb}
+.supermelon:active {transform: translateY(4px)}
+.spinner:active {border-color: #e4e9e4;}
+
