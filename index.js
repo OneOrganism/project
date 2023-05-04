@@ -7,8 +7,8 @@ let aEl = document.getElementById("a-el")
 console.log(clicker)
 
 
-function a1(){ let message = "My hormones are rustling... Giggity giggity"; aEl.innerText = message }
-function a2(){ let message = "Call me Tyrone, because I don't have a punchline for this joke."; aEl.innerText = message }
+function a1(){ let message = "snjnjsnjsnsj"; aEl.innerText = message }
+function a2(){ let message = "euwuwbjbdw."; aEl.innerText = message }
 function a3(){ let message = "You may want to cover up more of the plate number."; aEl.innerText = message }
 
 function eat() {
